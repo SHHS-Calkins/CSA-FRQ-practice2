@@ -16,6 +16,7 @@ public class Test {
                 case "move":
                     System.out.println("Distance: ");
                     choice1 = scan.nextDouble();
+                    scan.nextLine();
                     System.out.println("Direction(N/W/E/S): ");
                     String choice4 = scan.nextLine();
                     p.move(choice1, choice4);
